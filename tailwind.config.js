@@ -1,5 +1,9 @@
 module.exports = {
   theme: {
+    
+    backgroundSize:{
+      0:'0px'
+    },
     screens: {
       xl: { max: "1279px" },
 
@@ -32,7 +36,20 @@ module.exports = {
         lightpink: "#FFE2E8",
         purple: "#C8C7F7",
         yellow: "#FFE0D3"
-      }
+      },
+      backgroundPosition: {
+        bottom: 'bottom',
+       'bottom-4': 'center bottom 1rem',
+        center: 'center',
+        left: 'left',
+      'left-bottom': 'right 3rem bottom 1rem',
+      'left-top': 'left top',
+        right: 'right',
+        'right-bottom': 'right bottom',
+        'right-top': 'right top',
+        top: 'top',
+      'top-4': 'center top 1rem',
+      },
     },
     inset: {
       "-16": "-2rem",
@@ -46,7 +63,10 @@ module.exports = {
       lg:
         "0px 8px 20px rgba(130, 136, 148, 0.16), 0px 0px 2px rgba(130, 136, 148, 0.48)"
     },
- 
+    maxWidth: {
+          '1': '16rem',
+          },
+          
   },
   variants: {},
   plugins: []
