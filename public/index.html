@@ -4,6 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <style>
+       @media (max-width: 639px) {
+         .relative.flex.max-w-4xl.pt-24.mx-auto.bg-right.bg-no-repeat.bg-contain {
+            background-position: left -1rem bottom -3rem
+         }
+       }
+       @media (max-width: 400px) {
+         .relative.flex.max-w-4xl.pt-24.mx-auto.bg-right.bg-no-repeat.bg-contain {
+            background-position: left -3rem bottom -3rem
+         }
+       }
+      </style>
     <title>Document</title>
     <link rel="stylesheet" href="build/tailwind.css">
 </head>
@@ -68,8 +80,9 @@
         </div>
     </section>
     <section class="max-w-6xl mx-auto bg-lightBlue">
-        <div class="relative flex max-w-4xl pt-24 mx-auto bg-right bg-no-repeat bg-contain sm:bg-left-bottom sm:pt-5 sm:flex-wrap sm:justify-center lg:px-4 " style="background-image: url('./build/img-girl-desktop.png');">
-          <div class="sm:flex-none pb-18 sm:pb-64 xs:pb-0">
+        <div class="relative flex max-w-4xl pt-24 mx-auto bg-right bg-no-repeat bg-contain sm:bg-leftbottom sm:pt-5 sm:flex-wrap sm:justify-center lg:px-4 " style="background-image: url('./build/img-girl-desktop.png');        
+         ">
+          <div class="sm:flex-none pb-18 xs:pb-0">
             <h4 class=" text-md text-indigo sm:text-center" >
               Get your loan offer in 10 minutes
             </h4>
