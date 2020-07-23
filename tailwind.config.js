@@ -4,13 +4,13 @@ module.exports = {
       leftbottom: "left -3rem bottom -1rem"
     },
     screens: {
-      xs:{max:"520px"},
+      xs: { max: "520px" },
       xl: { max: "1279px" },
 
       lg: { max: "1023px" },
 
       md: { max: "767px" },
-      sm: { max: "620px" },
+      sm: { max: "620px" }
     },
     extend: {
       lineHeight: {
@@ -38,11 +38,13 @@ module.exports = {
     },
     inset: {
       "-16": "-2rem",
+      "16":"2rem",
       "-18": "-6rem",
       "-1": "-9px",
       "-2": "-10px",
       "-3": "-12px",
-      "7": "7rem"
+      "7": "7rem",
+      "12": "85px"
     },
     boxShadow: {
       lg:
