@@ -37,6 +37,7 @@ module.exports = {
       }
     },
     inset: {
+      "12": "12rem",
       "-16": "-2rem",
       "16":"2rem",
       "-18": "-6rem",
@@ -44,7 +45,7 @@ module.exports = {
       "-2": "-10px",
       "-3": "-12px",
       "7": "7rem",
-      "12": "85px"
+      
     },
     boxShadow: {
       lg:
