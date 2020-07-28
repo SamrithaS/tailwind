@@ -33,7 +33,8 @@ module.exports = {
         border3: "#817DFF",
         lightpink: "#FFE2E8",
         purple: "#C8C7F7",
-        yellow: "#FFE0D3"
+        yellow: "#FFE0D3",
+        lightgrey:"#F5F7F9"
       }
     },
     inset: {
